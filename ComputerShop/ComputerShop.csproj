@@ -52,7 +52,6 @@
       <DependentUpon>AdditionalForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Item.cs" />
-    <Compile Include="ItemBase.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
