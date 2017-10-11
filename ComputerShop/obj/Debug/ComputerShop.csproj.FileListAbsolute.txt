@@ -1,0 +1,10 @@
+C:\Users\HP\Documents\GitHub\WF_Homework8\ComputerShop\bin\Debug\ComputerShop.exe.config
+C:\Users\HP\Documents\GitHub\WF_Homework8\ComputerShop\bin\Debug\ComputerShop.exe
+C:\Users\HP\Documents\GitHub\WF_Homework8\ComputerShop\bin\Debug\ComputerShop.pdb
+C:\Users\HP\Documents\GitHub\WF_Homework8\ComputerShop\obj\Debug\ComputerShop.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\WF_Homework8\ComputerShop\obj\Debug\ComputerShop.AdditionalForm.resources
+C:\Users\HP\Documents\GitHub\WF_Homework8\ComputerShop\obj\Debug\ComputerShop.MainForm.resources
+C:\Users\HP\Documents\GitHub\WF_Homework8\ComputerShop\obj\Debug\ComputerShop.Properties.Resources.resources
+C:\Users\HP\Documents\GitHub\WF_Homework8\ComputerShop\obj\Debug\ComputerShop.csproj.GenerateResource.Cache
+C:\Users\HP\Documents\GitHub\WF_Homework8\ComputerShop\obj\Debug\ComputerShop.exe
+C:\Users\HP\Documents\GitHub\WF_Homework8\ComputerShop\obj\Debug\ComputerShop.pdb

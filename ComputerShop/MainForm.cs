@@ -12,13 +12,14 @@ namespace ComputerShop
 {
     public partial class MainForm : Form
     {
-        public List<Item> items = new List<Item>();
         public MainForm()
         {
             InitializeComponent();
             AdditionalForm editForm = new AdditionalForm();
-            comboBox.DataSource = items;
-            comboBox.DisplayMember = "Name";
+            foreach(Item item in editForm.Items)
+            {
+                comboBox.Items.Add(item.Name);
+            }
         }
 
         private void AddToBasketButton_Click(object sender, EventArgs e)

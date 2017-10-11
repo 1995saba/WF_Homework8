@@ -30,10 +30,10 @@
         {
             this.createNewButton = new System.Windows.Forms.Button();
             this.editButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxName = new System.Windows.Forms.TextBox();
+            this.textBoxPrice = new System.Windows.Forms.TextBox();
+            this.textBoxCharac = new System.Windows.Forms.TextBox();
+            this.textBoxDescrirtion = new System.Windows.Forms.TextBox();
             this.enterNameLabel = new System.Windows.Forms.Label();
             this.enterPriceLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,6 +48,7 @@
             this.createNewButton.TabIndex = 0;
             this.createNewButton.Text = "Создать";
             this.createNewButton.UseVisualStyleBackColor = true;
+            this.createNewButton.Click += new System.EventHandler(this.CreateNewButton_Click);
             // 
             // editButton
             // 
@@ -58,33 +59,33 @@
             this.editButton.Text = "Редактировать";
             this.editButton.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // textBoxName
             // 
-            this.textBox1.Location = new System.Drawing.Point(150, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 20);
-            this.textBox1.TabIndex = 2;
+            this.textBoxName.Location = new System.Drawing.Point(150, 35);
+            this.textBoxName.Name = "textBoxName";
+            this.textBoxName.Size = new System.Drawing.Size(139, 20);
+            this.textBoxName.TabIndex = 2;
             // 
-            // textBox2
+            // textBoxPrice
             // 
-            this.textBox2.Location = new System.Drawing.Point(150, 234);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(139, 20);
-            this.textBox2.TabIndex = 3;
+            this.textBoxPrice.Location = new System.Drawing.Point(150, 234);
+            this.textBoxPrice.Name = "textBoxPrice";
+            this.textBoxPrice.Size = new System.Drawing.Size(139, 20);
+            this.textBoxPrice.TabIndex = 3;
             // 
-            // textBox3
+            // textBoxCharac
             // 
-            this.textBox3.Location = new System.Drawing.Point(150, 167);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(139, 20);
-            this.textBox3.TabIndex = 4;
+            this.textBoxCharac.Location = new System.Drawing.Point(150, 167);
+            this.textBoxCharac.Name = "textBoxCharac";
+            this.textBoxCharac.Size = new System.Drawing.Size(139, 20);
+            this.textBoxCharac.TabIndex = 4;
             // 
-            // textBox4
+            // textBoxDescrirtion
             // 
-            this.textBox4.Location = new System.Drawing.Point(150, 100);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(139, 20);
-            this.textBox4.TabIndex = 5;
+            this.textBoxDescrirtion.Location = new System.Drawing.Point(150, 100);
+            this.textBoxDescrirtion.Name = "textBoxDescrirtion";
+            this.textBoxDescrirtion.Size = new System.Drawing.Size(139, 20);
+            this.textBoxDescrirtion.TabIndex = 5;
             // 
             // enterNameLabel
             // 
@@ -131,10 +132,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.enterPriceLabel);
             this.Controls.Add(this.enterNameLabel);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxDescrirtion);
+            this.Controls.Add(this.textBoxCharac);
+            this.Controls.Add(this.textBoxPrice);
+            this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.editButton);
             this.Controls.Add(this.createNewButton);
             this.Name = "AdditionalForm";
@@ -148,10 +149,10 @@
 
         private System.Windows.Forms.Button createNewButton;
         private System.Windows.Forms.Button editButton;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxName;
+        private System.Windows.Forms.TextBox textBoxPrice;
+        private System.Windows.Forms.TextBox textBoxCharac;
+        private System.Windows.Forms.TextBox textBoxDescrirtion;
         private System.Windows.Forms.Label enterNameLabel;
         private System.Windows.Forms.Label enterPriceLabel;
         private System.Windows.Forms.Label label3;
